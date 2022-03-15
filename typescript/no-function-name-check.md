@@ -1,6 +1,6 @@
 # no-function-name-check
 
-真偽値を返す関数に `check` という名前をつけないでください。
+booleanを返す関数に `check` という名前をつけないでください。
 
 :thumbsdown: このルールの誤ったコードの例：
 
