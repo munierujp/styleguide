@@ -11,10 +11,19 @@ if (email !== '') {
 }
 ```
 
+```ts
+// ユーザーを取得
+const user = fetchUser(userName)
+```
+
 :thumbsup: このルールの正しいコードの例：
 
 ```ts
 if (email !== '') {
   console.log(email)
 }
+```
+
+```ts
+const user = fetchUser(userName)
 ```
