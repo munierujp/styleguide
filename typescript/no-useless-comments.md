@@ -13,7 +13,7 @@ if (email !== '') {
 
 ```ts
 // ユーザーを取得
-const user = fetchUser(userName)
+const user = await fetchUser(userName)
 ```
 
 :thumbsup: このルールの正しいコードの例：
@@ -25,5 +25,5 @@ if (email !== '') {
 ```
 
 ```ts
-const user = fetchUser(userName)
+const user = await fetchUser(userName)
 ```
