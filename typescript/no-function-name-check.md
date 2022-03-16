@@ -1,6 +1,7 @@
 # no-function-name-check
 
 booleanを返す関数に `check` という名前をつけないでください。
+それは、どのような値を返すのか不明瞭です。
 
 :thumbsdown: このルールの誤ったコードの例：
 
