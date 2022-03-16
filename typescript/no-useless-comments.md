@@ -5,25 +5,25 @@
 :thumbsdown: このルールの誤ったコードの例：
 
 ```ts
-// メールアドレスが空文字ではない場合
-if (email !== '') {
-  console.log(email)
+// IDが空文字ではない場合
+if (id !== '') {
+  console.log(id)
 }
 ```
 
 ```ts
 // ユーザーを取得
-const user = await fetchUser(userName)
+const user = await fetchUser(id)
 ```
 
 :thumbsup: このルールの正しいコードの例：
 
 ```ts
-if (email !== '') {
-  console.log(email)
+if (id !== '') {
+  console.log(id)
 }
 ```
 
 ```ts
-const user = await fetchUser(userName)
+const user = await fetchUser(id)
 ```
