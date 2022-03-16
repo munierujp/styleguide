@@ -7,7 +7,7 @@
 ```ts
 // メールアドレスが空文字ではない場合
 if (email !== '') {
-  console.log(user.email)
+  console.log(email)
 }
 ```
 
@@ -15,6 +15,6 @@ if (email !== '') {
 
 ```ts
 if (email !== '') {
-  console.log(user.email)
+  console.log(email)
 }
 ```
