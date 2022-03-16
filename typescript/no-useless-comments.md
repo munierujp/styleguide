@@ -1,4 +1,4 @@
-# no-unused-imports
+# no-useless-comments
 
 コードを読めば分かるような、不要なコメントを書かないでください。それは冗長です。
 
