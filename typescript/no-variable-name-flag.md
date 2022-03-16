@@ -1,6 +1,6 @@
 # no-variable-name-flag
 
-booleanの変数に `flag` という名前をつけないでださい。
+booleanの変数に `flag` という名前をつけないでださい。それは、条件式で使用したときに不自然になります。
 
 :thumbsdown: このルールの誤ったコードの例：
 
