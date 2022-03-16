@@ -5,7 +5,6 @@ booleanの変数に `flag` という名前をつけないでださい。
 :thumbsdown: このルールの誤ったコードの例：
 
 ```ts
-const values = [1, 2]
 const emptyFlag = values.length === 0
 
 if (emptyFlag) {
@@ -16,7 +15,6 @@ if (emptyFlag) {
 :thumbsup: このルールの正しいコードの例：
 
 ```ts
-const values = [1, 2]
 const isEmpty = values.length === 0
 
 if (isEmpty) {
