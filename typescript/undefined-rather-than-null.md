@@ -6,13 +6,7 @@ nullよりもundefinedを使用してください。
 
 ```ts
 const findNegativeNumber = (...numbers: number[]): number | null => {
-  const number = numbers.find(number => number < 0)
-  
-  if (number === undefined) {
-    return null
-  }
-  
-  return number
+  return numbers.find(number => number < 0) ?? null
 }
 ```
 
