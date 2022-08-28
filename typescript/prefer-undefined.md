@@ -1,4 +1,4 @@
-# undefined-rather-than-null
+# prefer-undefined
 
 nullよりもundefinedを使用してください。
 
@@ -18,7 +18,7 @@ const findNegativeNumber = (...numbers: number[]): number | undefined => {
 };
 ```
 
-## 参照
+## 参考
 
 - [Coding guidelines · microsoft/TypeScript Wiki](https://github.com/Microsoft/TypeScript/wiki/Coding-guidelines#null-and-undefined)
 - [スタイルガイド（コーディング規約） - TypeScript Deep Dive 日本語版](https://typescript-jp.gitbook.io/deep-dive/styleguide#null-vs-undefined)
