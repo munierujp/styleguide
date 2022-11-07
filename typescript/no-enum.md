@@ -27,7 +27,7 @@ export const Direction = {
 export type Direction = typeof Direction[keyof typeof Direction]
 
 // ['UP', 'DOWN', 'LEFT', 'RIGHT']
-export const directions = Object.values(Direction)
+const directions = Object.values(Direction)
 
 // ユーザー定義型ガード関数
 export const isDirection = (value: any): value is Direction => directions.includes(value)
