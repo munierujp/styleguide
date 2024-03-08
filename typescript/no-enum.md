@@ -1,8 +1,8 @@
 # no-enum
 
-enumを使わないでください。それにはいくつかの問題があります。かわりにユニオン型の使用を検討してください。
+[Enum](https://www.typescriptlang.org/docs/handbook/enums.html)を使わないでください。それにはいくつかの問題があります。かわりにユニオン型やオブジェクトの使用を検討してください。
 
-:thumbsdown: このルールの誤ったコードの例：
+## :thumbsdown: このルールの誤ったコードの例
 
 ```ts
 enum Direction {
@@ -13,7 +13,15 @@ enum Direction {
 }
 ```
 
-:thumbsup: このルールの正しいコードの例：
+## :thumbsup: このルールの正しいコードの例
+
+ユニオン型を使う場合：
+
+```ts
+type Direction = 'UP' | 'DOWN' | 'LEFT' | 'RIGHT'
+```
+
+オブジェクトを使う場合：
 
 ```ts
 export const Direction = {
@@ -27,7 +35,7 @@ export const Direction = {
 export type Direction = typeof Direction[keyof typeof Direction]
 
 // ['UP', 'DOWN', 'LEFT', 'RIGHT']
-const directions = Object.values(Direction)
+export const directions = Object.values(Direction)
 
 // ユーザー定義型ガード関数
 export const isDirection = (value: any): value is Direction => directions.includes(value)
