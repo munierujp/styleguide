@@ -24,5 +24,5 @@ if (isEmpty) {
 
 ## 参考
 
-- [プログラミング ワンポイント - boolean型の変数の名前は命題にする - 株式会社デーコム](http://www.dcom-web.co.jp/technology/pgpoint1/)
+- [プログラミング ワンポイント – boolean型の変数の名前は命題にする](https://www.dcom-web.co.jp/blog/2016/0601)
 - [C#でフラグ扱いの変数名にフラグと命名してはいけない - PG日誌](https://takap-tech.com/entry/2018/02/21/012100)
