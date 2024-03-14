@@ -1,14 +1,14 @@
 # no-function-name-check
 
-booleanを返す関数に `check` という名前をつけないでください。それは、どのような値を返すのか不明瞭です。
+`boolean`型を返す関数に`check`という名前をつけないでください。それは、どのような値を返すのか不明瞭です。
 
-:thumbsdown: このルールの誤ったコードの例：
+## :thumbsdown: このルールの誤ったコードの例
 
 ```ts
 const checkZero = (value: unknown): value is 0 => value === 0
 ```
 
-:thumbsup: このルールの正しいコードの例：
+## :thumbsup: このルールの正しいコードの例
 
 ```ts
 const isZero = (value: unknown): value is 0 => value === 0
