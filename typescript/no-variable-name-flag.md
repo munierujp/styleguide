@@ -1,8 +1,8 @@
 # no-variable-name-flag
 
-booleanの変数に `flag` という名前をつけないでください。それは、条件式で使用したときに不自然になります。
+`boolean`型の変数に`flag`という名前をつけないでください。それは、条件式で使用したときに不自然に見えます。
 
-:thumbsdown: このルールの誤ったコードの例：
+## :thumbsdown: このルールの誤ったコードの例
 
 ```ts
 const emptyFlag = values.length === 0
@@ -12,7 +12,7 @@ if (emptyFlag) {
 }
 ```
 
-:thumbsup: このルールの正しいコードの例：
+## :thumbsup: このルールの正しいコードの例
 
 ```ts
 const isEmpty = values.length === 0
