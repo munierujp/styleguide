@@ -1,8 +1,8 @@
 # prefer-undefined
 
-nullよりもundefinedを使用してください。
+`null`よりも`undefinedを`使用してください。
 
-:thumbsdown: このルールの誤ったコードの例：
+## :thumbsdown: このルールの誤ったコードの例
 
 ```ts
 const findNegativeNumber = (...numbers: number[]): number | null => {
@@ -10,7 +10,7 @@ const findNegativeNumber = (...numbers: number[]): number | null => {
 }
 ```
 
-:thumbsup: このルールの正しいコードの例：
+## :thumbsup: このルールの正しいコードの例
 
 ```ts
 const findNegativeNumber = (...numbers: number[]): number | undefined => {
