@@ -1,6 +1,6 @@
 # no-enum
 
-[Enum](https://www.typescriptlang.org/docs/handbook/enums.html)を使わないでください。それにはいくつかの問題があります。かわりにユニオン型やオブジェクトの使用を検討してください。
+[Enum](https://www.typescriptlang.org/docs/handbook/enums.html)を使わないでください。かわりにユニオン型やオブジェクトの使用を検討してください。
 
 ## :thumbsdown: このルールの誤ったコードの例
 
