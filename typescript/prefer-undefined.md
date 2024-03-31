@@ -1,6 +1,6 @@
 # prefer-undefined
 
-`null`よりも`undefinedを`使用してください。
+`null`よりも`undefined`を使用してください。
 
 ## :thumbsdown: このルールの誤ったコードの例
 
