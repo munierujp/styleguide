@@ -6,7 +6,7 @@
 
 ```ts
 /**
- * @param {string} somebody
+ * @param {string} somebody - somebody's name
  */
 const sayHello = (somebody: string): void => {
   window.alert(`Hello ${somebody}`)
@@ -17,7 +17,7 @@ const sayHello = (somebody: string): void => {
 
 ```ts
 /**
- * @param somebody
+ * @param somebody - somebody's name
  */
 const sayHello = (somebody: string): void => {
   window.alert(`Hello ${somebody}`)
