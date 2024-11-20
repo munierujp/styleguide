@@ -27,3 +27,7 @@ const func = ({
 
 func({ foo: 'foo', bar: 'bar' })
 ```
+
+## 参考
+
+- [キーワード引数とOptions Objectパターン | TypeScript入門『サバイバルTypeScript』](https://typescriptbook.jp/reference/functions/keyword-arguments-and-options-object-pattern)
