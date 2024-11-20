@@ -5,11 +5,11 @@
 ## :thumbsdown: このルールの誤ったコードの例
 
 ```ts
-const func = (foo: string, bar: string): void => {
+const func = (foo: boolean, bar: boolean): void => {
   // do something
 }
 
-func('foo', 'bar')
+func(true, false)
 ```
 
 ## :thumbsup: このルールの正しいコードの例
@@ -19,13 +19,13 @@ const func = ({
   foo,
   bar
 }: {
-  foo: string,
-  bar: string
+  foo: boolean,
+  bar: boolean
 }): void => {
   // do something
 }
 
-func({ foo: 'foo', bar: 'bar' })
+func({ foo: true, bar: false })
 ```
 
 ## 参考
