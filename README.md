@@ -1,6 +1,6 @@
 # スタイルガイド
 
-メンテナビリティの高いコードを書くためのスタイルガイド
+私自身のスタイルガイド
 
 - [TypeScript](./typescript)
 - [Markdown](./markdown)
