@@ -2,5 +2,6 @@
 
 私自身のスタイルガイド
 
-- [TypeScript](./typescript)
 - [Markdown](./markdown)
+- [TypeScript](./typescript)
+- [ウェブ](./web)
