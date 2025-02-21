@@ -2,7 +2,7 @@
 
 関数の引数が複数ある場合、オブジェクトとして受け取ることを検討してください。
 
-## :thumbsdown: このルールの誤ったコードの例
+## :thumbsdown: 悪い例
 
 ```ts
 const func = (foo: boolean, bar: boolean): void => {
@@ -12,7 +12,7 @@ const func = (foo: boolean, bar: boolean): void => {
 func(true, false)
 ```
 
-## :thumbsup: このルールの正しいコードの例
+## :thumbsup: 良い例
 
 ```ts
 const func = ({
@@ -28,6 +28,6 @@ const func = ({
 func({ foo: true, bar: false })
 ```
 
-## 参考
+## 関連リンク
 
 - [キーワード引数とOptions Objectパターン | TypeScript入門『サバイバルTypeScript』](https://typescriptbook.jp/reference/functions/keyword-arguments-and-options-object-pattern)
