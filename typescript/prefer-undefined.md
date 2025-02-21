@@ -2,7 +2,7 @@
 
 `null`よりも`undefined`を使用してください。
 
-## :thumbsdown: このルールの誤ったコードの例
+## :thumbsdown: 悪い例
 
 ```ts
 const findNegativeNumber = (...numbers: number[]): number | null => {
@@ -10,7 +10,7 @@ const findNegativeNumber = (...numbers: number[]): number | null => {
 }
 ```
 
-## :thumbsup: このルールの正しいコードの例
+## :thumbsup: 良い例
 
 ```ts
 const findNegativeNumber = (...numbers: number[]): number | undefined => {
@@ -18,7 +18,7 @@ const findNegativeNumber = (...numbers: number[]): number | undefined => {
 };
 ```
 
-## 参考
+## 関連リンク
 
 - [Coding guidelines · microsoft/TypeScript Wiki](https://github.com/Microsoft/TypeScript/wiki/Coding-guidelines#null-and-undefined)
 - [nullとundefined - TypeScript Deep Dive 日本語版](https://typescript-jp.gitbook.io/deep-dive/recap/null-undefined)
