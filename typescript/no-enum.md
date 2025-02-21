@@ -2,7 +2,7 @@
 
 [Enum](https://www.typescriptlang.org/docs/handbook/enums.html)を使わないでください。かわりにユニオン型やオブジェクトの使用を検討してください。
 
-## :thumbsdown: このルールの誤ったコードの例
+## :thumbsdown: 悪い例
 
 ```ts
 enum Direction {
@@ -13,7 +13,7 @@ enum Direction {
 }
 ```
 
-## :thumbsup: このルールの正しいコードの例
+## :thumbsup: 良い例
 
 ユニオン型を使う場合：
 
@@ -41,7 +41,7 @@ export const directions = Object.values(Direction)
 export const isDirection = (value: any): value is Direction => directions.includes(value)
 ```
 
-## 参考
+## 関連リンク
 
 - [TypeScript: Handbook - Enums](https://www.typescriptlang.org/docs/handbook/enums.html#objects-vs-enums)
 - [列挙型(enum)の問題点と代替手段 | TypeScript入門『サバイバルTypeScript』](https://typescriptbook.jp/reference/values-types-variables/enum/enum-problems-and-alternatives-to-enums)
