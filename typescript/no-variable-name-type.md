@@ -2,13 +2,13 @@
 
 変数名に型名を含めないでください。
 
-## :thumbsdown: このルールの誤ったコードの例
+## :thumbsdown: 悪い例
 
 ```ts
 const numberArray = [1, 2]
 ```
 
-## :thumbsup: このルールの正しいコードの例
+## :thumbsup: 良い例
 
 ```ts
 const numbers = [1, 2]
