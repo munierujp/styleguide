@@ -2,7 +2,7 @@
 
 未使用のimport文を書かないでください。
 
-## :thumbsdown: このルールの誤ったコードの例
+## :thumbsdown: 悪い例
 
 ```ts
 import foo from './foo'
@@ -11,7 +11,7 @@ import bar from './bar'
 foo()
 ```
 
-## :thumbsup: このルールの正しいコードの例
+## :thumbsup: 良い例
 
 ```ts
 import foo from './foo'
