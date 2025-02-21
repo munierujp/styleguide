@@ -2,7 +2,7 @@
 
 単純な等価比較をする場合、if文よりもswitch文を使用してください。
 
-## :thumbsdown: このルールの誤ったコードの例
+## :thumbsdown: 悪い例
 
 ```ts
 if (foo === 1) {
@@ -14,7 +14,7 @@ if (foo === 1) {
 }
 ```
 
-## :thumbsup: このルールの正しいコードの例
+## :thumbsup: 良い例
 
 ```ts
 switch (foo) {
