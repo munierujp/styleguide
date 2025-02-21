@@ -2,7 +2,7 @@
 
 コードを読めば分かるようなコメントを書かないでください。
 
-## :thumbsdown: このルールの誤ったコードの例
+## :thumbsdown: 悪い例
 
 ```ts
 // IDが空文字ではない場合
@@ -16,7 +16,7 @@ if (id !== '') {
 const user = await fetchUser(id)
 ```
 
-## :thumbsup: このルールの正しいコードの例
+## :thumbsup: 良い例
 
 ```ts
 if (id !== '') {
