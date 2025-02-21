@@ -5,7 +5,7 @@
 ## :thumbsdown: 悪い例
 
 ````markdown
-```sh
+```
 $ echo hello
 ```
 ````
@@ -13,7 +13,7 @@ $ echo hello
 ## :thumbsup: 良い例
 
 ````markdown
-```sh
+```
 echo hello
 ```
 ````
