@@ -9,3 +9,4 @@
 ## :thumbsup: 良い例
 
 - `https://my-company.example/2025-summer-sale`
+- `https://2025-summer-sale.my-company.example`
